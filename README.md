@@ -14,7 +14,7 @@ It is true that it can be taken as  single point of failure but nowadays all the
 
 Dependencies
 -------------
-
+```
 org.scala-lang:scala-library:2.11.5
 org.json4s:json4s-native_2.11:3.3.0
 org.json4s:json4s-ext_2.10:3.3.0
@@ -23,6 +23,7 @@ io.spray:spray-can_2.11:1.3.3
 io.spray:spray-routing_2.11:1.3.3
 com.typesafe.akka:akka-actor_2.11:2.4.1
 com.thenewmotion.akka:akka-rabbitmq_2.11:1.2.4
+```
 
 Endpoints
 -------------
