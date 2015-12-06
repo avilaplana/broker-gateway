@@ -4,9 +4,9 @@ package com.gateway
 import akka.actor.{Actor, ActorLogging, ActorRef, Props}
 import com.gateway.MQProducerActor.ProducerConf
 import com.thenewmotion.akka.rabbitmq.{BasicProperties, ChannelActor, ChannelMessage, CreateChannel}
+import com.util.JsonSugar
 import org.joda.time.DateTime
 import org.json4s.native.Serialization.write
-import util.JsonSugar
 
 object MQProducerActor {
 

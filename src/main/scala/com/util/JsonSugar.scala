@@ -1,4 +1,4 @@
-package util
+package com.util
 
 import org.json4s.{DefaultFormats, Formats}
 import spray.httpx.Json4sSupport

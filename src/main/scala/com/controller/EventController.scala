@@ -2,8 +2,8 @@ package com.controller
 
 import akka.actor.ActorRef
 import com.gateway.MQProducerActor.Event
+import com.util.JsonSugar
 import spray.routing.HttpService
-import util.JsonSugar
 
 trait EventController extends HttpService with JsonSugar{
 
